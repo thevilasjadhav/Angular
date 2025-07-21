@@ -15,6 +15,6 @@ jobs:
          with:
            node-version: 18.x
        - name: Install Dependencies
-         run: npn install
+         run: npm install
        - name: Build Angular App
-         run: npn run build  
+         run: npm run build  
